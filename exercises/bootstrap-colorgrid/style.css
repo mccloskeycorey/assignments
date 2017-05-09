@@ -1,0 +1,11 @@
+.row-one,
+.row-two {
+    padding: 4%;
+    background-color: white;
+    height: 100px;
+}
+
+.col-md-8 {
+    background-color: #F5C6D6;
+    background: red;
+}

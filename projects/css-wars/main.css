@@ -1,0 +1,26 @@
+body {
+    background-color: #111111;
+}
+
+h1 {
+    color: #E2E80F;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+p {
+    color: #eeeeee;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.into span {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#film-description {
+    font-size: 20px;
+    font-family: italic, sans-serif;
+}

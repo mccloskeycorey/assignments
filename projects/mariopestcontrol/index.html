@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="utf-8">
+    <title>Mario Pest Control</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:300" rel="stylesheet" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</header>
+
+<body>
+    <h1>Mario's Pest Control</h1>
+    <br>
+    <p class="content">Here at "Mario's Pest Control" we strive for a job well done. We have a small locally owned bussiness that works for the community. To iradicate the pests that we are plaged with on a day to day basis. Below we have some pricings on some of them evil little critters.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="goomba">
+                    <a id="goombaButton"><img class="goomba-pic" id="goomba-img" src="http://vignette1.wikia.nocookie.net/fantendo/images/5/50/Musklet_Goomba.png/revision/latest?cb=20120818120650"></a>
+                    <p>Total cost 5 coins</p>
+                    <input type="number" id=caughtGoomba>
+                    <button id="totalGoomba" onclick="totalGoomba()">Total</button>
+                    <p id="totalGoombaCost"></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cheep-cheep">
+                    <a id="bobombButton"><img class="bobomb-pic" id="bobomb-img" src="http://vignette4.wikia.nocookie.net/gaming-planet/images/a/a6/King_Bob-Omb.png/revision/latest?cb=20140711215527"></a>
+                    <p>Total cost 7 coins</p>
+                    <input type="number" id="caughtBobomb">
+                    <button id="totalBobomb" onclick="totalBobomb()">Total</button>
+                    <p id="totalBobombCost"></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="bobomb">
+                    <a id="cheepButton"><img class="cheep-pic" id="cheep-img" src="http://vignette2.wikia.nocookie.net/fantendo/images/9/9d/Deep-Cheep_Mario_2012_game.png/revision/latest?cb=20120523012111"></a>
+                    <p>Total cost 11 coins</p>
+                    <input type="number" id="caughtCheep">
+                    <button id="totalCheep" onclick="totalCheep()">Total</button>
+                    <p id="totalCheepCost"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <center>
+        <div class="finalButton">
+            <button id="finalTotal" onclick="totalOfAll()">Total Bill</button>
+            <p class="totalOfAll"></p>
+        </div>
+    </center>
+    <script src="main.js"></script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>Email: mario@notagain.com url: http://mario.com/why/do/i/have/to/save/peach/again address: 567 mushroom st.
+        <footer>
+</body>
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,10 @@
+.container {
+    column-count: 3;
+    text-align: justify;
+}
+
+img{
+    width: 51%;
+    float: left;
+    padding: 10px;
+}

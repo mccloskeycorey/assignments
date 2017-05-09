@@ -1,0 +1,35 @@
+body {
+    background-image: url("http://img13.deviantart.net/565e/i/2013/221/b/b/mario_under_water_2_by_nocturnalmarauder-d6hfv42.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.content {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.goomba,
+.cheep-cheep,
+.bobomb {
+    margin-right: 91px;
+    background-color: yellowgreen 10%;
+    padding-right: 10px;
+}
+
+.goomba {
+    margin-top: 51px
+}
+
+center {
+    margin-top: 53px;
+}
+
+#totalGoombaCost,
+#totalCheepCost,
+#totalBobombCost {
+    color: red;
+    font-size: x-large;
+}
+
+
+}
