@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Setup ng-repeat</title>
+</head>
+
+<body ng-controller="mainCntrl">
+
+    <div ng-repeat="kill in kills">
+        <h2>{{kill.handle}}</h2>
+        <h3>{{kill.rank}}</h3>
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+body {
+    background-image: url("https://img1.goodfon.ru/original/3088x2048/8/23/boxing-gym-everlast.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: inline;
+}
+
+span {
+    color: white;
+    background: rgba(60, 59, 59, 0.55);
+    justify-content: center;
+}
+
+h1,
+p {
+    text-align: center;
+    color: white;
+    background: rgba(60, 59, 59, 0.55)
+    /*    background: rgba(229, 230, 117, 0.56);*/
+}
+
+h1 {
+    width: 16%;
+    margin-left: 40%;
+}
+
+li {
+    /*    background: rgba(229, 230, 117, 0.56);*/
+    /*    padding: 18%;*/
+    ;
+    font-size: 20px;
+}
+
+.trainers {
+    /*    padding-right: 87%;*/
+}
+
+img {
+    width: 10%;
+}

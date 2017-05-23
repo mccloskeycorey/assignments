@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>High Score Haven</title>
+    <link rel="stylesheet" href="highscore.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="/action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Your last name..">
+            <lable> Would you like to trash talk? </lable>
+            <br>
+            <input type="checkbox" name="trashTalk" value="trash">Yes<br>
+            <input type="checkbox" name="scared" value="chicken">No<br>
+
+            <label for="country">Skillz Bra</label>
+            <select name="skill" id="skill">
+                <option value="noob">Noob</option>
+                <option value="moderat">Semi Competent</option>
+                <option value="advanced">A God among 12 year old kids</option>
+            </select>
+
+            <label for="subject">Subject</label>
+
+            <input type="submit" value="Submit">
+
+            <div class="scores">
+                <br>High Scores<br>
+                <div class="printHere"></div>
+            </div>
+
+        </form>
+
+        <table style="width:100%">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Date</th>
+                <th>High Score</th>
+            </tr>
+            <tr>
+                <td id="first"></td>
+                <td id="last"></td>
+                <td id="date"></td>
+                <td id="highScore"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script src="highscore.js"></script>
+</body>
+
+</html>

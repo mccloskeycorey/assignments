@@ -1,20 +1,48 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>High-Score Haven</title>
-    <link rel="stylesheet" href="style.css"> 
-<!--    Remember to not use Bootstrap.-->
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<div class="container">
-    <table>
-        <tr></tr>
-    </table>
-</div>
+    <center>
+        <h1>Passenger Travel Form</h1>
 
+        <div class="container">
+            <div class="row">
+
+                <form id="myform">
+                    <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
+
+                    <input type="text" class="lastName" id="lastName" name="lastName" placeholder="Last Name">
+
+                    <input type="number" class="personAge" id="age" name="age" placeholder="Age">
+                    <br>
+                    <input type="radio" name="gender" class="male" id="gender" value="Male">Male<br>
+                    <input type="radio" name="gender" class="femal" id="gender" value="female">Female<br>
+                    <input type="radio" name="gender" class="other" id="gender" value="other">Other<br>
+                    <input list="destination" name="destination" placeholder="Destination">
+                    <datalist id="destination" name="destination">
+                <option value="Russia"></option>
+                <option value="Japan"></option>
+                <option value="Africa"></option>
+                </datalist>
+                    <br>
+                    <input type="checkbox" id="vegetarian" name="diet">Vegitarian<br>
+                    <input type="checkbox" name="rawFood" id="rawFood">Raw Food<br>
+                    <input type="checkbox" name="paleolithic" id="paleolithic">Paleolithic<br> 
+                </form>
+
+                <button class="btn btn-danger" onclick="onSubmit()" id="submit">Submit</button>
+
+            </div>
+        </div>
+    </center>
+    <script src="app.js"></script>
 </body>
 
 </html>

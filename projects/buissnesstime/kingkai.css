@@ -1,0 +1,10 @@
+body {
+    background: url("https://pbs.twimg.com/profile_images/414543641110396929/0wjsJtJE.jpeg");
+}
+
+h1 {
+    color: white;
+    /* display: flex; */
+    margin: auto;
+    margin-left: 41%;
+}

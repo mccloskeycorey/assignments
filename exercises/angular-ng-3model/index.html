@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ng 3 model</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body ng-controller="mainCntrl">
+
+    <div class="container">
+        <well class="col-sm-4">
+            First Name: <input type="text" ng-model="firstName">
+            <h3>{{firstName}}</h3>
+        </well>
+        <well class="col-sm-4">
+            Last Name: <input type="text" ng-model="lastName">
+            <h3>{{lastName}}</h3>
+        </well>
+        <well class="col-sm-4">
+            Fav Food: <input type="text" ng-model="favFood">
+            <h1>{{favFood}}</h1>
+        </well>
+    </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>

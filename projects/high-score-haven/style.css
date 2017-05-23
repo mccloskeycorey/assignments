@@ -1,0 +1,19 @@
+body {
+    background-image: url("http://religionnews.com/wp-content/uploads/2014/04/flight-through-clouds.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: rgba(128, 128, 128, 0.6);
+    width: 20%;
+}
+
+.firstName,
+.lastName {
+    margin: 10px;
+}
+
+.female {
+    align-content: c
+}
