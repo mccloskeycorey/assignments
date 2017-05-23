@@ -4,8 +4,20 @@ body {
     text-align: center;
 }
 
+body:active {
+    background-image: url(http://www.twitrcovers.com/wp-content/uploads/2014/02/Super-Mario-l.jpg);
+    background-size: cover;
+    text-align: center;
+    transition-delay: .3s;
+}
+
 .content {
     background-color: rgba(128, 128, 128, 0.5);
+}
+
+.heading:hover {
+    font-size: 64px;
+    transition-timing-function: ease-in-out;
 }
 
 .goomba,
