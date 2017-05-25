@@ -80,6 +80,17 @@ function setAttackEnemy(monster) {
     }
 }
 
+function itemGen() {
+    var rand = Math.random()
+    if (rand < .1 && (user.inventory != "A Fork you got a Fork of awesomeness!")) {
+        user.inventory = "Fork of awesomeness";
+        console.log("You found an 'Fork of awesomeness'!")
+    } else if (rand < .5 && (user.inventory !== ("You found an 'Fork of awesomeness" || "A Staff"))) {
+        user.inventory = "A Staff";
+        console.log("You now have a Staff to poke people with.");
+    }
+}
+
 function Enemy() {
     this.name = setName();
     this.health = setHealth();
@@ -95,7 +106,9 @@ function fight(enemy) {
         enemy.health -= user.attack;
         user.health -= enemy.attack;
         if (enemy.health <= 0) {
+
             console.log("You won the battle!! What a surprise I totally thought you were gonna die. Your health is now at: " + user.health);
+            itemGen();
             return;
 
         } else if (user.health <= 0) {
