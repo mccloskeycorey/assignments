@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyApp">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Corey's Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+	<content>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<header>
+						<nav>
+							<a class="navText" href="#/home">Home</a>
+							<a class="navText" href="#/about">About</a>
+							<a class="navText" href="#/contact">Contact</a>
+							<a class="navText" href="#/works">Works</a>
+						</nav>
+					</header>
+				</div>
+			</div>
+			<h2>Corey McCloskey</h2>
+			<a href=""></a>
+			<a href=""></a>
+			<img src="" alt="">
+
+
+		</div>
+	</content>
+
+	<ng-view></ng-view>
+
+
+	<!-- Libraries -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+	<!-- Components -->
+	<script src="app.js"></script>
+	<script src="components/home/home.js"></script>
+	<script src="/components/about/about.js"></script>
+	<script src="/components/contact/contact.js"></script>
+	<script src="/components/works/works.js"></script>
+</body>
+
+</html>

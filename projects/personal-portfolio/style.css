@@ -1,0 +1,35 @@
+nav {
+	padding: 25px;
+	text-align: center;
+	font-size: 18px;
+}
+
+a {
+	margin-right: 10px;
+	padding: 10px;
+}
+
+body {
+	background-image: url("https://unsplash.com/collections/273709/lakes-rivers-streams?photo=KGBlXCmi80M");
+}
+
+
+/*
+nav a {
+	color: white;
+}
+*/
+
+
+/*
+header {
+	background-color: rgb(28, 2, 175);
+}
+*/
+
+h1,
+p {
+	text-align: center
+}
+
+p {}

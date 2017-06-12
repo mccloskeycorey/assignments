@@ -6,7 +6,7 @@ app.controller("mainCntrl", ["$scope", "$http", function ($scope, $http) {
         $http.post('/someurl', user).then(function (response) {
                 //continue with normal operations
             },
-            function (respons) {
+            function (response) {
                 //in case there is an error, do this other stuff
             });
     }
