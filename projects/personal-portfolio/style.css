@@ -1,7 +1,50 @@
+h1,
+p, h4 {
+	text-align: center
+}
+/* Page one styling */
+.pageOne {
+	background:
+		/* top, transparent red, faked with gradient */
+			linear-gradient(
+					rgb(255, 255, 255),
+					rgba(2, 24, 190, 0.1)
+				/*rgba(2, 24, 190, 0.25)*/
+			),
+			url("http://www.lakeplace.com/img/2013/lake-property-for-sale-mn.jpg");
+				/* bottom, image */
+
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 800px;
+	margin-bottom: 0;
+}
+
+.corey {
+	width:25%;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	float: right;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+
 nav {
 	padding: 25px;
 	text-align: center;
 	font-size: 18px;
+	float: right;
+	margin:auto;
+	position: fixed;
+	background-color: rgb(244, 219, 97);
+/*rgb(25, 184, 13);*/
+/*rgb(95, 155, 43)*/
 }
 
 a {
@@ -9,27 +52,33 @@ a {
 	padding: 10px;
 }
 
-body {
-	background-image: url("https://unsplash.com/collections/273709/lakes-rivers-streams?photo=KGBlXCmi80M");
+.sepBar1 {
+	text-align: center;
+	background-color: rgb(244, 219, 97);
+	margin-top: -20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+/* Page 2 styling */
+
+.knowledge {
+	margin-bottom: 30px;
+	font-size: 24px;
+}
+
+ol {
+	font-size: 24px;
+}
+
+.sepBar2 {
+	text-align: center;
+	background-color: rgb(102, 118, 239);
+	margin-top: -20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 
-/*
-nav a {
-	color: white;
-}
-*/
 
 
-/*
-header {
-	background-color: rgb(28, 2, 175);
-}
-*/
 
-h1,
-p {
-	text-align: center
-}
-
-p {}

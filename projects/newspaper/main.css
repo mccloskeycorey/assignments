@@ -1,10 +1,25 @@
-.container {
-    column-count: 3;
-    text-align: justify;
+body {
+	background: url("https://www.strategic-culture.org/images/news/2016/05/02/or-37264.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-img{
-    width: 51%;
-    float: left;
-    padding: 10px;
+h1,
+h2,
+p {
+	text-align: center;
+	background-color: rgba(173, 173, 173, 0.7);
+}
+
+.container {
+	column-count: 3;
+	text-align: justify;
+}
+
+img {
+	width: 51%;
+	float: left;
+	padding: 10px;
 }

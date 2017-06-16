@@ -1,46 +1,46 @@
 body {
-    background-image: url("http://img13.deviantart.net/565e/i/2013/221/b/b/mario_under_water_2_by_nocturnalmarauder-d6hfv42.jpg");
-    background-size: cover;
-    text-align: center;
+	background-image: url("http://img13.deviantart.net/565e/i/2013/221/b/b/mario_under_water_2_by_nocturnalmarauder-d6hfv42.jpg");
+	background-size: cover;
+	text-align: center;
 }
 
 body:active {
-    background-image: url(http://www.twitrcovers.com/wp-content/uploads/2014/02/Super-Mario-l.jpg);
-    background-size: cover;
-    text-align: center;
-    transition-delay: .3s;
+	background-image: url(http://www.twitrcovers.com/wp-content/uploads/2014/02/Super-Mario-l.jpg);
+	background-size: cover;
+	text-align: center;
+	transition-delay: .3s;
 }
 
 .content {
-    background-color: rgba(128, 128, 128, 0.5);
+	background-color: rgba(128, 128, 128, 0.5);
 }
 
 .heading:hover {
-    font-size: 64px;
-    transition-timing-function: ease-in-out;
+	font-size: 64px;
+	transition-timing-function: ease-in-out;
 }
 
 .goomba,
 .cheep-cheep,
 .bobomb {
-    margin-right: 91px;
-    background-color: yellowgreen 10%;
-    padding-right: 10px;
+	margin-right: 91px;
+	background-color: yellowgreen 10%;
+	padding-right: 10px;
 }
 
 .goomba {
-    margin-top: 51px
+	margin-top: 51px
 }
 
 center {
-    margin-top: 53px;
+	margin-top: 53px;
 }
 
 #totalGoombaCost,
 #totalCheepCost,
 #totalBobombCost {
-    color: red;
-    font-size: x-large;
+	color: red;
+	font-size: x-large;
 }
 
 
